@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-def load_data(file_path):
+def load_data_from_file(file_path):
     """
     Load data from a CSV file.
 
