@@ -1,14 +1,18 @@
 import pandas as pd
 
+df = pd.read_csv(
+    '/Users/cristianemartins/Desktop/portfolio/review-data-analysis/scripts/hm-cardigans-reviews.csv')
+print(df)
 
-def load_data_from_file(file_path):
+
+def load_data_from_file(df):
     """
-    Load data from a CSV file.
+    load data from a CSV file
 
-    Parameters:
-    file_path (str): The path to the CSV file.
+    parameters:
+    file_path (str): the path to the CSV file
 
-    Returns:
-    pd.DataFrame: The loaded data as a Pandas DataFrame.
+    returns:
+    pd.DataFrame: the loaded data as a pandas dataframe
     """
-    return pd.read_csv(file_path)
+    return pd.read_csv(df)
